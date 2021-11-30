@@ -1,11 +1,12 @@
 from flask import Flask
+from config import api_key
 
 #dependencias
 import requests
 
 app = Flask(__name__)
 
-api_key = '2a149d289a2eeb9716e157bd1448dfb3'
+
 
 def openWeather(cidade, api_key):
     url = f'http://api.openweathermap.org/data/2.5/weather?q={cidade}&APPID={api_key}'
