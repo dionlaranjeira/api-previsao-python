@@ -11,10 +11,10 @@ class Cidade(Resource):
             return response, 200
         return {'message': "Nenhuma cidade encontrada"}, 404
 
-    def find_cidade(cidade):
+    def find_cidade(nome_cidade):
         listaCidades = []
         for city in citys:
-            if (city['name'].lower().find(cidade) >= 0):
+            if (city['name'].lower().find(nome_cidade) >= 0):
                 novaCidade = {
                     "id": (city['id']),
                     "name": (city['name']),
