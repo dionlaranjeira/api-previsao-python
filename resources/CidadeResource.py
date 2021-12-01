@@ -4,16 +4,12 @@ jsonCitys = open('city.list.json')
 citys = json.load(jsonCitys)
 
 class Cidade(Resource):
-    argumentos = reqparse.RequestParser()
-    argumentos.add_argument('id')
-    argumentos.add_argument('name')
-    argumentos.add_argument('country')
 
     def get(sef, cidade):
         response = Cidade.find_cidade(cidade)
         if len(response)>0:
             return response, 200
-        return {'message': "nenhuma cidade encontrada"}, 404
+        return {'message': "Nenhuma cidade encontrada"}, 404
 
     def find_cidade(cidade):
         listaCidades = []
