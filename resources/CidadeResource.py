@@ -14,7 +14,7 @@ class Cidade(Resource):
     def find_cidade(nome_cidade):
         listaCidades = []
         for city in citys:
-            if (city['name'].lower().find(nome_cidade) >= 0):
+            if (city['name'].lower().find(nome_cidade.lower()) >= 0):
                 novaCidade = {
                     "id": (city['id']),
                     "name": (city['name']),
