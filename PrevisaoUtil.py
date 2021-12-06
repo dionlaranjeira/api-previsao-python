@@ -220,6 +220,9 @@ def find_forecasts(cidadeID):
         # RETORNANDO SUNSET
         sunset = response['city']['sunset']
         sunset = convert_unix_hour(sunset)
+	
+	#RETORNADO CITY
+        city = response['city']['name']
 
         # RETORNADO data
         data = lista[index]['dt_txt']
@@ -239,6 +242,7 @@ def find_forecasts(cidadeID):
                                 "wind_speed":wind_speed,
                                 "coords": coords,
                                 "day": day,
+				"city": city,
         }
 
         forecast.append(novaPrevisaoHoje)
