@@ -237,16 +237,11 @@ def find_forecasts(cidadeID):
                                 "date":date,
                                 "clouds": clouds,
                                 "wind_speed":wind_speed,
-                                "coords": coords
-
-
+                                "coords": coords,
+                                "day": day,
         }
 
-        newForecast = {
-            day: novaPrevisaoHoje,
-        }
-
-        forecast.append(newForecast)
+        forecast.append(novaPrevisaoHoje)
 
     return forecast
 
