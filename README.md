@@ -18,7 +18,7 @@
 <h1>#sobre</h1>
 <p>Essa API tem o principal objetivo de retornar a previsão do tempo de uma determinada cidade.</p> 
 <p> A lista de cidade disponíveis para obter uma previsão pode ser baixada em: http://bulk.openweathermap.org/sample/ </p>
-<p>Por se tratar de um projeto em construção, não foi utilizado um banco de dados, todas as consulta são cidades são realizadas no arquivo JSON disponivel em: https://github.com/dionlaranjeira/api-previsao-python/blob/main/city.list.json</p>
+<p>Por se tratar de um projeto em construção, não foi utilizado um banco de dados, todas as consultas as cidades são realizadas no arquivo JSON disponivel em: https://github.com/dionlaranjeira/api-previsao-python/blob/main/city.list.json</p>
 <p>As previsão são feitas com a consulta ao Web Service disponivel em: https://openweathermap.org/forecast5<p>
 <p>Para realizar as consultas, você precisará de uma API_KEY, é possível conseguir uma em: https://openweathermap.org/api<p>
 <p>Nessa api, utilizamos a API_KEY para realizar consulta do web service "5 Day / 3 Hour Forecast"</p>
