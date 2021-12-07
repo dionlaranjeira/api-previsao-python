@@ -1,5 +1,5 @@
 # api-previsao-python
-<h1>API Previsão do Tempo desenvolvida em Python - Linx</h1>
+<h1>API Previsão do Tempo desenvolvida em Python</h1>
 
 
 <h3 align="center">PROJETO EM CONSTRUÇÃO</h1>
