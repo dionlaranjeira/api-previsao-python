@@ -25,7 +25,7 @@
 
 
 <h1>#instalacao</h1>
-<p>Você precisará de python versão 3</p>
+<p>Você precisará de python versão 3+</p>
 <p>Clone esse projeto e configure seu ambiente python</p>
 <p>Utilizamos o Flask para o servidor back end, é possível fazer a instalação do Flask via pip instal com:</p>
 >py -m venv env <br>
